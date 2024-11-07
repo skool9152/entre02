@@ -1,0 +1,502 @@
+element.style {
+    text-align: center;
+}
+@media screen and (max-width: 768px) {
+    .navbar-right-dg {
+        margin-top: 5px;
+    }
+}
+.navbar-right-dg {
+    margin-top: -50px;
+}
+.navbar-nav {
+    margin: 7.5px -15px;
+}
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+.navbar-custom-dg {
+    color: #fff;
+    background-color: #337ab7 !important;
+    border-color: #2e6da4 !important;
+}
+body {
+    font-family: "Mulish", sans-serif;
+}
+body {
+    font-family: "Mulish", sans-serif;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+:host, :root {
+    --fa-style-family-classic: "Font Awesome 6 Free";
+    --fa-font-solid: normal 900 1em / 1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-font-regular: normal 400 1em / 1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-style-family-brands: "Font Awesome 6 Brands";
+    --fa-font-brands: normal 400 1em / 1 "Font Awesome 6 Brands";
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+.btn-group-vertical>.btn-group:after, .btn-group-vertical>.btn-group:before, .btn-toolbar:after, .btn-toolbar:before, .clearfix:after, .clearfix:before, .container-fluid:after, .container-fluid:before, .container:after, .container:before, .dl-horizontal dd:after, .dl-horizontal dd:before, .form-horizontal .form-group:after, .form-horizontal .form-group:before, .modal-footer:after, .modal-footer:before, .modal-header:after, .modal-header:before, .nav:after, .nav:before, .navbar-collapse:after, .navbar-collapse:before, .navbar-header:after, .navbar-header:before, .navbar:after, .navbar:before, .pager:after, .pager:before, .panel-body:after, .panel-body:before, .row:after, .row:before {
+    display: table;
+    content: " ";
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.btn-group-vertical>.btn-group:after, .btn-toolbar:after, .clearfix:after, .container-fluid:after, .container:after, .dl-horizontal dd:after, .form-horizontal .form-group:after, .modal-footer:after, .modal-header:after, .nav:after, .navbar-collapse:after, .navbar-header:after, .navbar:after, .pager:after, .panel-body:after, .row:after {
+    clear: both;
+}
+.btn-group-vertical>.btn-group:after, .btn-group-vertical>.btn-group:before, .btn-toolbar:after, .btn-toolbar:before, .clearfix:after, .clearfix:before, .container-fluid:after, .container-fluid:before, .container:after, .container:before, .dl-horizontal dd:after, .dl-horizontal dd:before, .form-horizontal .form-group:after, .form-horizontal .form-group:before, .modal-footer:after, .modal-footer:before, .modal-header:after, .modal-header:before, .nav:after, .nav:before, .navbar-collapse:after, .navbar-collapse:before, .navbar-header:after, .navbar-header:before, .navbar:after, .navbar:before, .pager:after, .pager:before, .panel-body:after, .panel-body:before, .row:after, .row:before {
+    display: table;
+    content: " ";
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Contenedor principal del menú */
+.nav-blocks {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    text-align: center;
+}
+
+/* Estilo para cada ítem de la lista (enlaces) */
+.nav-blocks > li {
+    display: inline-block;
+    position: relative;
+}
+
+/* Estilo para los enlaces */
+.nav-blocks a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Cambiar color del fondo al pasar el mouse */
+.nav-blocks a:hover {
+    background-color: #575757;
+}
+
+/* Estilos para el submenú */
+.nav-blocks li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    min-width: 200px;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para los elementos dentro del submenú */
+.nav-blocks li ul li {
+    display: block;
+}
+
+/* Estilo para los enlaces dentro del submenú */
+.nav-blocks li ul li a {
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Efecto hover para los enlaces dentro del submenú */
+.nav-blocks li ul li a:hover {
+    background-color: #666;
+}
+
+/* Mostrar el submenú cuando el mouse está sobre el elemento principal */
+.nav-blocks li:hover > ul {
+    display: block;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+    .nav-blocks {
+        text-align: left;
+    }
+
+    /* Hacer los ítems de la lista verticales en dispositivos móviles */
+    .nav-blocks > li {
+        display: block;
+        width: 100%;
+    }
+
+    /* Hacer que el submenú se expanda a pantalla completa en móviles */
+    .nav-blocks li ul {
+        position: relative;
+        min-width: 100%;
+    }
+
+    .nav-blocks li ul li a {
+        padding: 10px;
+    }
+}
+
+/* Estilos generales para la sección */
+.categories {
+    padding: 40px 20px;
+    background-color: #f8f9fa;
+}
+
+.categories h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Estilos para el contenedor de la cuadrícula */
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* Cuadrícula responsiva */
+    gap: 30px;
+    justify-items: center;
+}
+
+/* Estilos para cada ítem de la categoría */
+.category-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto al pasar el ratón sobre el ítem */
+.category-item:hover {
+    transform: translateY(-10px); /* Sube ligeramente */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Imagen dentro del ítem de la categoría */
+.category-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 2px solid #f1f1f1;
+}
+
+/* Estilo del título dentro del ítem de la categoría */
+.category-item h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin: 15px 0;
+}
+
+/* Estilo para el enlace "Ver tienda" */
+.category-item a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+/* Efecto de hover sobre el enlace */
+.category-item a:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo del comentario/descripción debajo del ítem */
+.category-item .comment {
+    font-size: 14px;
+    color: #555;
+    padding: 0 15px 20px;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 768px) {
+    .category-grid {
+        grid-template-columns: 1fr; /* Los elementos ocupan toda la fila en pantallas pequeñas */
+        gap: 20px;
+    }
+    
+    .category-item {
+        margin-bottom: 20px;
+    }
+}
+
+/* Estilos generales para el contenedor de la barra de búsqueda */
+.search-cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 500px; /* Ancho máximo para que no se estire demasiado */
+    width: 100%;
+}
+
+/* Estilo del campo de entrada (input) */
+.search-cart input[type="text"] {
+    width: 80%; /* El campo de texto ocupa el 80% del ancho del contenedor */
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 4px 0 0 4px; /* Bordes redondeados solo en la parte izquierda */
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+/* Estilo al pasar el ratón sobre el campo de texto */
+.search-cart input[type="text"]:focus {
+    border-color: #007bff; /* Cambia el color del borde al hacer foco */
+}
+
+/* Estilo del botón de búsqueda */
+.search-cart button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0 4px 4px 0; /* Bordes redondeados solo en la parte derecha */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilo al pasar el ratón sobre el botón */
+.search-cart button:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al hacer hover */
+}
+
+/* Estilos responsivos para pantallas pequeñas */
+@media (max-width: 768px) {
+    .search-cart {
+        flex-direction: column; /* La barra de búsqueda y el botón se apilan verticalmente */
+        align-items: stretch; /* Los elementos ocupan todo el ancho */
+    }
+
+    .search-cart input[type="text"] {
+        width: 100%; /* El campo de búsqueda ocupa todo el ancho disponible */
+        margin-bottom: 10px; /* Espacio entre el input y el botón */
+    }
+
+    .search-cart button {
+        width: 100%; /* El botón ocupa todo el ancho disponible */
+    }
+}
+
+/* Estilo para el contenedor principal de los iconos */
+#iconosPrincipal {
+    position: fixed; /* Fija el contenedor en la pantalla */
+    bottom: 20px; /* Distancia desde el borde inferior de la pantalla */
+    right: 20px; /* Distancia desde el borde derecho de la pantalla */
+    z-index: 9999; /* Asegura que el icono esté encima de otros elementos */
+    transition: transform 0.3s ease; /* Transición suave al interactuar con el icono */
+}
+
+/* Estilo para el icono de contacto */
+#mostrarIconos.contactanos {
+    width: 300px; /* Ancho del icono */
+    height: auto; /* Mantiene la proporción del icono */
+    border-radius: 50%; /* Redondea las esquinas para hacerlo circular */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para darle profundidad */
+    cursor: pointer; /* Cambia el cursor a mano cuando se pasa por encima */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transiciones suaves */
+}
+
+/* Efecto cuando el usuario pasa el ratón sobre el icono */
+#mostrarIconos.contactanos:hover {
+    transform: scale(1.1);
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #010764; /* Color de fondo oscuro para el pie de página */
+    color: white; /* Color de texto blanco */
+    padding: 20px 10px; /* Relleno en el footer para separación */
+    text-align: center; /* Centra el contenido */
+    font-size: 17px; /* Tamaño de fuente para el pie de página */
+}
+
+footer p {
+    margin-bottom: 10x; /* Espaciado debajo del texto del pie de página */
+}
+
+/* Enlaces del footer */
+footer .footer-links a {
+    color: #fff; /* Color blanco para los enlaces */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    margin: 0 15px; /* Espaciado entre los enlaces */
+    transition: color 0.3s ease; /* Transición suave para el color */
+}
+
+footer .footer-links a:hover {
+    color: #1e90ff; /* Color azul brillante cuando el ratón pasa sobre el enlace */
+}
+
+.redes {
+    display: inline-flex;
+    list-style: none;
+    height: 100%;
+    width: 100%;
+    padding-top: 250px;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+    padding-top: 10%
+  }
+  
+  .redes .icon {
+    position: relative;
+    background: #78e9f8;
+    border-radius: 50%;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .redes .tooltip {
+    position: absolute;
+    top: 0;
+    font-size: 14px;
+    background: #fff;
+    color: #fff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .redes .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #070707;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .redes .icon:hover .tooltip {
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  
+  .redes .icon:hover span,
+  .redes .icon:hover .tooltip {
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  .redes .facebook:hover,
+  .redes .facebook:hover .tooltip,
+  .redes .facebook:hover .tooltip::before {
+    background: #045f13;
+    color: #ffffff;
+  }
+  
+  .redes .twitter:hover,
+  .redes .twitter:hover .tooltip,
+  .redes .twitter:hover .tooltip::before {
+    background: #039eff;
+    color: #fdfdfd;
+  }
+  
+  .redes .instagram:hover,
+  .redes .instagram:hover .tooltip,
+  .redes .instagram:hover .tooltip::before {
+    background: #ff9b05;
+    color: #f8f8f8;
+  }
+  .redes .linkedin:hover,
+  .redes .linkedin:hover .tooltip,
+  .redes .linkedin:hover .tooltip::before {
+    background: #cddb0b;
+    color: #ffffff;
+  }
+
+  .redes .pinterest:hover,
+  .redes .pinterest:hover .tooltip,
+  .redes .pinterest:hover .tooltip::before {
+    background: #7005fc;
+    color: #ffffff;
+  }
+
+  .redes .telegram:hover,
+  .redes .telegram:hover .tooltip,
+  .redes .telegram:hover .tooltip::before {
+    background: #fa0808;
+    color: #ffffff;
+  }
